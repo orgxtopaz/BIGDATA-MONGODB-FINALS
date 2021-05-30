@@ -1,0 +1,43 @@
+
+
+<h3>BOROTOY</h3>
+<table class="table">
+    
+    <thead>
+        <tr>
+            <th class='prop__name'>Username</th>
+            <th class='prop__name'>Email</th>
+            <th class='prop__name'  >Password</th>
+              <th class='prop__name'  >Action</th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+            <tr>
+                <td>{{this.username}}</td>
+                <td>{{this.email}}</td>
+                <td>{{this.password}}</td>
+             
+                <td>
+                    <a href="/employee/{{this._id}}">
+                        <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href="/employee/delete/{{this._id}}" onclick="return confirm('Are you sure to delete this record?');">
+                        <i class="fa fa-trash fa-lg" aria-hidden="true">
+                         
+                        </i>
+                    </a>
+                      <a href="/employee" >
+                     <i class="fa fa-plus" aria-hidden="true"> </i> 
+                     </a>
+                </td>
+            </tr>
+        {{/each}}
+    </tbody>
+    
+</table>
+
+
+

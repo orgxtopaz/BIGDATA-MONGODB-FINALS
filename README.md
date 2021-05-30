@@ -1,2 +1,2 @@
 # BIGDATA-MONGODB-FINALS
-BIGDATA MONGODB FINALS team member : Eleasar Patot, John Miguel Estopa, James lyod Belda,Romeo Rodemio
+BIGDATA MONGODB FINALS team member : Eleasar Patot, John Miguel Estopa, James loyd Belda,Romeo Rodemio
